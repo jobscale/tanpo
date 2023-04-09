@@ -63,3 +63,5 @@ typings/
 .vscode/
 db/
 package-lock.json
+
+.vercel
