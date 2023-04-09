@@ -1,7 +1,6 @@
 {
   "users": [{
     "login": "alice",
-    "hash": "daf3b0d86bfc824cc8790291e83fd43875bf279d03a5998449942537837adb95e5e080211fb38ae631cea7e2aac8d6e5a25ba8023db6a6ef041d80997d5e8d5d"
   }, {
     "login": "bob"
   }, {

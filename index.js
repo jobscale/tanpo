@@ -23,7 +23,8 @@ const syncDB = async () => {
   })
   .then(users => {
     if (users.length !== 0) return [];
-    return sampleUsers();
+    return sampleUsers()
+    .catch(e => logger.error(e.message));
   });
 };
 
