@@ -1,5 +1,5 @@
 const { logger } = require('@jobscale/logger');
-const { App } = require('./app');
+const app = require('./app');
 const { database } = require('./config/database');
 const User = require('./app/models/User');
 const { createHash } = require('./app/user');
@@ -32,7 +32,6 @@ const main = async () => {
   const dbSync = syncDB();
   const prom = {};
   prom.pending = new Promise(resolve => { prom.resolve = resolve; });
-  const app = new App().start();
   const options = {
     host: '0.0.0.0',
     port: process.env.PORT || 3000,
