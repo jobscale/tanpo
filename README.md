@@ -19,7 +19,7 @@
 ## Tutorial
 
 ```
-git clone git@github.com:jobscale/node-express-ejs-authorization.git
+git clone https://github.com/jobscale/node-express-ejs-authorization.git
 cd node-express-ejs-authorization
 npm i
 npm start
