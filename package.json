@@ -36,6 +36,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jobscale/tanpo.git"
+    "url": "git+git@github.com:jobscale/tanpo.git"
   }
 }
