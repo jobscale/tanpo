@@ -5,7 +5,6 @@
   "description": "node express ejs template SSR MVC",
   "author": "jobscale <jobscale@users.noreply.github.com>",
   "license": "MIT",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node .",
@@ -16,21 +15,23 @@
     "test"
   ],
   "dependencies": {
-    "@jobscale/logger": "^0.10.1",
-    "@jobscale/slack": "^0.2.2",
-    "cookie-parser": "^1.4.7",
-    "dayjs": "^1.11.19",
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "http-errors": "^2.0.1",
-    "joi": "^18.0.2",
+    "@jobscale/logger": "^0.3.0",
+    "@jobscale/slack": "^0.2.0",
+    "cookie-parser": "^1.4.6",
+    "dayjs": "^1.11.10",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "http-errors": "^2.0.0",
+    "joi": "^17.12.2",
     "jws": "^4.0.0",
-    "sequelize": "^6.37.7",
+    "sequelize": "^6.37.1",
     "sqlite3": "^5.1.7"
   },
   "devDependencies": {
-    "ejs-lint": "^2.0.1",
-    "eslint": "^9.39.1",
+    "ejs-lint": "^2.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
     "pre-commit": "^1.2.2"
   },
   "repository": {
