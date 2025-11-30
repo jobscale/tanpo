@@ -1,7 +1,7 @@
 {
   "name": "tanpo",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "node express ejs template SSR MVC",
   "author": "jobscale <jobscale@users.noreply.github.com>",
   "license": "MIT",
