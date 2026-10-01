@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const { logger } = require('@jobscale/logger');
+const { logger } = require('@jobscale/create-logger');
 const { connection } = require('./connection');
 
 const benchmark = true;

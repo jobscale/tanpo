@@ -1,5 +1,5 @@
 const path = require('path');
-const { logger } = require('@jobscale/logger');
+const { logger } = require('@jobscale/create-logger');
 const { userService } = require('./service');
 
 class UserController {

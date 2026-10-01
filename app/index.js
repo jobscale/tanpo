@@ -3,7 +3,7 @@ const path = require('path');
 const createHttpError = require('http-errors');
 const express = require('express');
 const cookieParser = require('cookie-parser');
-const { logger } = require('@jobscale/logger');
+const { logger } = require('@jobscale/create-logger');
 const { route } = require('./route');
 
 const app = express();

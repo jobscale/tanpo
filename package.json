@@ -1,7 +1,7 @@
 {
-  "name": "tanpo",
   "private": true,
-  "version": "0.1.1",
+  "name": "tanpo",
+  "version": "0.1.2",
   "description": "node express ejs template SSR MVC",
   "author": "jobscale <jobscale@users.noreply.github.com>",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "test"
   ],
   "dependencies": {
-    "@jobscale/logger": "^0.3.0",
+    "@jobscale/create-logger": "^1.0.5",
     "@jobscale/slack": "^0.2.0",
     "cookie-parser": "^1.4.6",
     "dayjs": "^1.11.10",

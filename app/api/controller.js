@@ -1,4 +1,4 @@
-const { logger } = require('@jobscale/logger');
+const { logger } = require('@jobscale/create-logger');
 const { apiService } = require('./service');
 
 class ApiController {

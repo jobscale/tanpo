@@ -1,5 +1,5 @@
 const dayjs = require('dayjs');
-const { logger } = require('@jobscale/logger');
+const { logger } = require('@jobscale/create-logger');
 const { authService } = require('./service');
 
 class AuthController {
